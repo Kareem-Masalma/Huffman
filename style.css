@@ -1,0 +1,52 @@
+.button {
+    -fx-background-color: #6b92ce;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #9acdee;
+}
+
+.button:pressed {
+    -fx-background-color: #070727;
+}
+
+.table-view {
+    -fx-background-color: #070727; /* Main background color */
+    -fx-control-inner-background: #070727; /* Inner table background */
+    -fx-table-cell-border-color: #6b92ce; /* Cell border color */
+    -fx-padding: 10; /* Optional padding for better spacing */
+}
+
+.table-view .column-header {
+    -fx-background-color: #6b92ce; /* Header background color */
+    -fx-border-color: transparent transparent #9acdee transparent; /* Border between header and rows */
+    -fx-border-width: 0 0 2px 0;
+    -fx-text-fill: #ffffff; /* Header text color */
+    -fx-font-weight: bold; /* Bold header text */
+}
+
+.table-row-cell {
+    -fx-background-color: #070727; /* Row background color */
+    -fx-text-fill: #9acdee; /* Row text color */
+    -fx-border-color: transparent transparent #6b92ce transparent; /* Row border */
+    -fx-border-width: 0 0 1px 0;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #0a0a3b; /* Slightly lighter color for odd rows */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #6b92ce; /* Highlight color for selected rows */
+    -fx-text-fill: #ffffff; /* Text color for selected rows */
+}
+
+.scroll-bar {
+    -fx-background-color: #070727; /* Scrollbar background */
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #6b92ce; /* Scrollbar thumb color */
+}
